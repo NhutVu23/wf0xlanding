@@ -32,13 +32,9 @@
               <li><a v-on:click="close_menu()" href="#tokenView">Token</a></li>
               <li><a v-on:click="close_menu()" href="#wfteam">Team</a></li>
               <!-- <li><a v-on:click="close_menu()" href="#support">Support</a></li> -->
-              <li class="play-btn">
-                <a
-                  @click="goTo('/coming-soon')"
-                  style="font-size: x-large; color: black;"
-                  >Play</a
-                >
-              </li>
+              <!-- <li class="play-btn">
+                <a @click="goTo('/coming-soon')" style="color: black;">Play</a>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -166,7 +162,7 @@ export default {
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/header.scss";
 .wflogo {
-  height: 118px;
+  height: 50px;
   // background: rgb(2, 0, 36);
   // background: linear-gradient(
   //   0deg,
@@ -174,15 +170,17 @@ export default {
   //   rgba(9, 9, 121, 1) 0%,
   //   rgba(205, 0, 255, 1) 100%
   // );
-  padding: 10px;
 }
 .play-btn {
   background-image: url("../assets/img/wf0x/button_play.png");
   background-repeat: no-repeat;
-  width: 150px;
+  width: 200px;
   text-align: center;
   cursor: pointer;
   background-position-y: center;
+  color: black;
+  margin-top: 70vh;
+  font-size: xx-large ;
 }
 // .brand-logo {
 //   align-self: start;
