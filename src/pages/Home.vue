@@ -1,58 +1,66 @@
 <template>
   <div class="main-container">
     <!-- Navbar section -->
-    <NavbarTwo />
+    <FantasyNavbar />
 
     <!-- slider section -->
-    <HeroBannerFive />
-    <div class="wf-container3 div-shadow">
+    <FantasyHeroBanner />
+    <div class="wf-container div-shadow">
       <AboutWF />
     </div>
     <section id="feature">
       <div class="wf-container div-shadow">
         <GameTournament />
+      </div>
+      <div class="wf-container div-shadow">
         <LiveTournament />
       </div>
       <!-- <div class="wf-container2 div-shadow">
       </div> -->
       <!-- <div class="wf-container4 div-shadow"></div> -->
-      <div class="wf-container3 div-shadow">
+      <div class="wf-container div-shadow">
         <MiniGame />
+      </div>
+      <div class="wf-container div-shadow">
         <Fusion />
       </div>
     </section>
 
     <TeamCharacter class="div-shadow" />
 
-    <section id="roadmap" class="wf-container3 div-shadow">
+    <section id="roadmap" class="wf-container div-shadow">
       <RoadMap />
     </section>
 
-    <section id="tokenView" class="wf-container3 div-shadow">
-      <TokenView />
-      <TokenEconmics />
+    <section id="tokenView">
+      <div class="wf-container div-shadow">
+        <TokenView />
+      </div>
+      <div class="wf-container div-shadow">
+        <TokenEconmics />
+      </div>
     </section>
-    <section id="wfteam" class="wf-container2 div-shadow">
+    <section id="wfteam" class="wf-container div-shadow">
       <WFTeam />
     </section>
-    <FooterTwo />
+    <FantasyFooter />
   </div>
 </template>
 
 <script>
-import NavbarTwo from "../components/NavbarTwo";
+import FantasyNavbar from "../components/FantasyNavbar";
 import AboutWF from "../components/AboutWF";
 import GameTournament from "../components/GameTournament";
 import MiniGame from "../components/MiniGame";
 import Fusion from "../components/Fusion";
-import HeroBannerFive from "../components/HeroBannerFive";
+import FantasyHeroBanner from "../components/FantasyHeroBanner";
 import RoadMap from "../components/RoadMap";
 import TeamCharacter from "../components/TeamCharacter";
 import LiveTournament from "../components/LiveTournament";
 import TokenEconmics from "../components/TokenEconmics";
 import WFTeam from "../components/WFTeam";
 import TokenView from "../components/TokenView";
-import FooterTwo from "../components/FooterTwo";
+import FantasyFooter from "../components/FantasyFooter";
 
 export default {
   name: "app",
@@ -61,15 +69,15 @@ export default {
     GameTournament,
     MiniGame,
     Fusion,
-    NavbarTwo,
-    HeroBannerFive,
+    FantasyNavbar,
+    FantasyHeroBanner,
     RoadMap,
     TeamCharacter,
     LiveTournament,
     TokenEconmics,
     WFTeam,
     TokenView,
-    FooterTwo,
+    FantasyFooter,
   },
 };
 </script>
@@ -81,8 +89,7 @@ export default {
   background-size: cover;
   color: white !important;
   padding: 5px 20px;
-  margin: 20px 0px;
-  max-width: 500px;
+  margin: 15px 20%;
   overflow-wrap: anywhere;
   text-align: center;
 }
@@ -98,8 +105,7 @@ export default {
   padding: 20px;
   font-weight: bold;
   font-size: 42px;
-  margin-top: 100px;
-  /* margin-left: -20%; */
+  margin: 50px 0px 30px 0px;
   overflow-wrap: anywhere;
 }
 
@@ -111,13 +117,13 @@ export default {
 } */
 
 .header-detail {
-  font-size: large;
-  text-transform: uppercase;
+  font-size: x-large;
+  /* text-transform: uppercase; */
   font-weight: bold;
-  color: #696969;
+  color: #6d6d96;
 }
 .wf-container {
-  background-image: url("../assets/img/wf0x/background-2.png");
+  background-image: url("../assets/img/wf0x/BG3.png");
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;

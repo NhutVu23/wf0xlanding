@@ -1,7 +1,6 @@
 <template>
   <section
     class="feature-style-2 bg-cover section live-footer"
-    style="padding-bottom:15%"
   >
     <div class="container">
       <div class="row">
@@ -36,7 +35,9 @@
                 <div class="header-content">
                   <h4 style="color:white;">{{ sinFeature.title }}</h4>
                 </div>
-                <h5 style="color:#696969">{{ sinFeature.desc }}</h5>
+                <h5 class="mobile-description">
+                  {{ sinFeature.desc }}
+                </h5>
               </div>
             </div>
           </div>
@@ -94,4 +95,12 @@ export default {
 <style lang="scss">
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components/feature.scss";
+.mobile-description {
+  color: #6D6D96 !important;
+}
+@media (max-width: 500px) {
+  .mobile-description {
+    color: white !important;
+  }
+}
 </style>
