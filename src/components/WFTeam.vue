@@ -11,7 +11,7 @@
         <div
           v-for="(about, abouts) in abouts"
           :key="abouts"
-          class="col-lg-3 col-md-6"
+          class="col-lg-4 col-md-6"
         >
           <div class="about-item">
             <img :src="about.img" style="max-height:200px;" />
@@ -47,7 +47,13 @@ export default {
           title: "Binh Doan",
           desc: "Project Manager \n",
           icon: "fa fa-pagelines",
-          img: require("../assets/img/wf0x/team/team-avar2.png"),
+          img: require("../assets/img/wf0x/team/BinhDoan.jpg"),
+        },
+        {
+          title: "Khue Phan",
+          desc: "Branding Consultant \n",
+          icon: "fa fa-pagelines",
+          img: require("../assets/img/wf0x/team/KhuePhan.jpg"),
         },
         {
           title: "Vu Hoang",
@@ -89,7 +95,7 @@ export default {
           title: "Minh Doan",
           desc: "Advisor \n" + "Genesisbuilders  \n" + "Incubator",
           icon: "fa fa-apple",
-          img: require("../assets/img/wf0x/team/team-avar.png"),
+          img: require("../assets/img/wf0x/team/MinhDoan.jpg"),
         },
         // {
         //   title: "UNIQUE DESIGN",
@@ -113,6 +119,6 @@ export default {
   white-space: pre-line;
   border-top-style: double;
   border-bottom-style: double;
-  min-height: 130px;
+  min-height: 100px;
 }
 </style>

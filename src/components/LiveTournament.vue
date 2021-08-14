@@ -1,31 +1,30 @@
 <template>
-  <div class="latest-blog-area live-footer" style="padding-bottom: 6%">
-    <div class="container" style="height: 100%">
+  <div class="latest-blog-area live-footer">
+    <div class="container" style="padding-top: 200px;">
       <!-- <h1 class="title header-content2">LIVE TOURNAMENT</h1> -->
       <div class="row">
         <div class="col-md-12 text-center">
           <img
             src="../assets/img/wf0x/character/cc.png"
             alt="doctor thumb"
-            style="max-height:600px;"
+            style="max-height:500px;"
           />
         </div>
         <div class="col-md-12">
           <br />
           <div>
             <div class="header-content">
-              <h2 style="color:white;">LIVE TOURNAMENT</h2>
+              <h2 style="color:white;">FANTASY TOURNAMENT</h2>
             </div>
             <br />
             <div class="text-center">
-              <p
-                class="header-detail text-center"
-                style="padding:0px 30px;"
-              >
-                “Live tournament place base on real league (Premier League,
+              <p class="header-detail text-center">
+                <span><img src="../assets/img/icon/Asset5.png"/></span>
+                Fantasy tournament place base on real league (Premier League,
                 Euro, World Cup,...) and evaluated based on the players' actual
                 performance during the season and according to a scale
-                specified”
+                specified.
+                <span><img src="../assets/img/icon/Asset4.png"/></span>
               </p>
             </div>
           </div>
